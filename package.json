@@ -1,19 +1,25 @@
 {
-  "name": "mvc_design",
+  "name": "Eat-Burger-Simulator",
   "version": "1.0.0",
-  "description": "",
-  "main": "server.js",
+  "description": "A app that uses node, express, mysql, and handlebars to achieve a user experience that lets you create a burger by inputting a name and display the burger that you can then DEVOUR!",
+  "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "",
-  "license": "ISC",
-  "dependencies": {
-    "express": "^4.16.3",
-    "express-handlebars": "^3.0.0",
-    "mysql": "^2.16.0"
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Kooki-eByte/Eat-Burger-Simulator.git"
   },
-  "devDependencies": {
-    "handlebars-helper-css": "^0.1.0"
+  "keywords": [],
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Kooki-eByte/Eat-Burger-Simulator/issues"
+  },
+  "homepage": "https://github.com/Kooki-eByte/Eat-Burger-Simulator#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "express-handlebars": "^5.1.0",
+    "mysql": "^2.18.1"
   }
 }
