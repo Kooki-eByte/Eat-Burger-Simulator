@@ -5,14 +5,13 @@ const router = express.Router();
 // get : all
 router.get("/", (req, res) => {
   burger.all((data) => {
-    console.log(burgerObj);
     res.render("index", { burger: data });
   });
 });
 
 // post : create
 router.post("/api/burger", (req, res) => {
-  let burgerName = req.body;
+  let burgerName = req.body.name;
   burger.create(burgerName, (data) => {
     res.json({ id: data.id });
   });
