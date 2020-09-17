@@ -29,6 +29,8 @@
 
 - You would run this application by either clicking on the heroku link to access this without installing the project _OR_ if you have it installed then on the terminal type **npm run start** to start on your own localhost.
 
+![Usage Example](./public/assets/img/example.png)
+
 ## Test Instructions <a name="test"></a>
 
 - There is no way to test the code now but if needed i will create a test directory for other devs to put test code in. Be sure to use jest as it it most common and easy to use for all skill sets.
