@@ -1,0 +1,183 @@
+.title {
+  text-align: center;
+  background-color: rgba(77, 77, 77, 0.65);
+  color: black;
+  box-shadow: 0 5px 5px 5px rgba(0, 0, 0, 0.5);
+}
+
+body {
+  background: url(../img/burgerBG.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+ul {
+  list-style-type: none;
+}
+
+.burger-not-devoured {
+  font-size: 1.25rem;
+  text-align: center;
+  font-size: 1.25rem;
+  margin-left: 100px;
+  margin-right: 100px;
+  border: 1px solid rgb(46, 46, 46);
+  border-radius: 25px;
+  background-color: rgba(250, 250, 210, 0.699);
+}
+
+.burger-devoured {
+  text-align: center;
+  font-size: 1.25rem;
+  margin-left: 100px;
+  margin-right: 100px;
+  border: 1px solid rgb(46, 46, 46);
+  border-radius: 25px;
+  background-color: rgba(250, 250, 210, 0.699);
+}
+
+.row {
+  color: black;
+}
+
+h2,
+form {
+  color: black;
+  text-align: center;
+  font-size: 20px;
+}
+
+form.create-form {
+  text-align: center;
+}
+
+.create-burger {
+  display: inline-block;
+}
+/* the layout of all the buttons on our index.hadnlebars */
+.button {
+  padding: 15px 25px;
+  margin: 20px 25px;
+  cursor: pointer;
+  display: inline-block;
+  color: #fff;
+  font-size: 1em;
+  border: 1px solid #eee;
+  background: #eee;
+  border-radius: 25px;
+  border: 1px solid #aaa;
+  text-decoration: none;
+
+  -webkit-transition: all 0.3s linear;
+  -khtml-transition: all 0.3s linear;
+  -moz-transition: all 0.3s linear;
+  -o-transition: all 0.3s linear;
+  transition: all 0.3s linear;
+}
+
+.button:hover {
+  -webkit-box-shadow: rgba(0, 0, 0, 0.7) 0px 5px 15px,
+    inset rgba(0, 0, 0, 0.15) 0px -10px 20px;
+  -khtml-box-shadow: rgba(0, 0, 0, 0.7) 0px 5px 15px,
+    inset rgba(0, 0, 0, 0.15) 0px -10px 20px;
+  -moz-box-shadow: rgba(0, 0, 0, 0.7) 0px 5px 15px,
+    inset rgba(0, 0, 0, 0.15) 0px -10px 20px;
+  -o-box-shadow: rgba(0, 0, 0, 0.7) 0px 5px 15px,
+    inset rgba(0, 0, 0, 0.15) 0px -10px 20px;
+  box-shadow: rgba(0, 0, 0, 0.7) 0px 5px 15px,
+    inset rgba(0, 0, 0, 0.15) 0px -10px 20px;
+}
+
+.button:active {
+  -webkit-box-shadow: rgba(255, 255, 255, 0.25) 0px 1px 0px,
+    inset rgba(255, 255, 255, 0.03) 0px 20px 0px,
+    inset rgba(0, 0, 0, 0.15) 0px -20px 20px,
+    inset rgba(255, 255, 255, 0.05) 0px 20px 20px;
+  -khtml-box-shadow: rgba(255, 255, 255, 0.25) 0px 1px 0px,
+    inset rgba(255, 255, 255, 0.03) 0px 20px 0px,
+    inset rgba(0, 0, 0, 0.15) 0px -20px 20px,
+    inset rgba(255, 255, 255, 0.05) 0px 20px 20px;
+  -moz-box-shadow: rgba(255, 255, 255, 0.25) 0px 1px 0px,
+    inset rgba(255, 255, 255, 0.03) 0px 20px 0px,
+    inset rgba(0, 0, 0, 0.15) 0px -20px 20px,
+    inset rgba(255, 255, 255, 0.05) 0px 20px 20px;
+  -o-box-shadow: rgba(255, 255, 255, 0.25) 0px 1px 0px,
+    inset rgba(255, 255, 255, 0.03) 0px 20px 0px,
+    inset rgba(0, 0, 0, 0.15) 0px -20px 20px,
+    inset rgba(255, 255, 255, 0.05) 0px 20px 20px;
+  box-shadow: rgba(255, 255, 255, 0.25) 0px 1px 0px,
+    inset rgba(255, 255, 255, 0.03) 0px 20px 0px,
+    inset rgba(0, 0, 0, 0.15) 0px -20px 20px,
+    inset rgba(255, 255, 255, 0.05) 0px 20px 20px;
+  text-shadow: 1px 1px 1px #eee;
+}
+
+/* The colors we are using for our buttons */
+
+.blue {
+  background: #7abcff; /* Old browsers */
+  background: -moz-linear-gradient(
+    top,
+    #7abcff 0%,
+    #60abf8 44%,
+    #4096ee 100%
+  ); /* FF3.6+ */
+  background: -webkit-gradient(
+    linear,
+    left top,
+    left bottom,
+    color-stop(0%, #7abcff),
+    color-stop(44%, #60abf8),
+    color-stop(100%, #4096ee)
+  ); /* Chrome,Safari4+ */
+  background: -webkit-linear-gradient(
+    top,
+    #7abcff 0%,
+    #60abf8 44%,
+    #4096ee 100%
+  ); /* Chrome10+,Safari5.1+ */
+  background: -o-linear-gradient(
+    top,
+    #7abcff 0%,
+    #60abf8 44%,
+    #4096ee 100%
+  ); /* Opera 11.10+ */
+  background: -ms-linear-gradient(
+    top,
+    #7abcff 0%,
+    #60abf8 44%,
+    #4096ee 100%
+  ); /* IE10+ */
+  background: linear-gradient(
+    top,
+    #7abcff 0%,
+    #60abf8 44%,
+    #4096ee 100%
+  ); /* W3C */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#7abcff', endColorstr='#4096ee',GradientType=0 ); /* IE6-9 */
+}
+
+.green {
+  background: #cdeb8e; /* Old browsers */
+  background: -moz-linear-gradient(top, #cdeb8e 0%, #a5c956 100%); /* FF3.6+ */
+  background: -webkit-gradient(
+    linear,
+    left top,
+    left bottom,
+    color-stop(0%, #cdeb8e),
+    color-stop(100%, #a5c956)
+  ); /* Chrome,Safari4+ */
+  background: -webkit-linear-gradient(
+    top,
+    #cdeb8e 0%,
+    #a5c956 100%
+  ); /* Chrome10+,Safari5.1+ */
+  background: -o-linear-gradient(
+    top,
+    #cdeb8e 0%,
+    #a5c956 100%
+  ); /* Opera 11.10+ */
+  background: -ms-linear-gradient(top, #cdeb8e 0%, #a5c956 100%); /* IE10+ */
+  background: linear-gradient(top, #cdeb8e 0%, #a5c956 100%); /* W3C */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#cdeb8e', endColorstr='#a5c956',GradientType=0 ); /* IE6-9 */
+}
